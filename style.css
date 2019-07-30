@@ -1,0 +1,282 @@
+                /* basic elements */
+                
+                * {
+                    margin: 0px;
+                    padding: 0px;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    font-family: serif, sans-serif;
+                    padding: 10px;
+                    background: #f1f1f1;
+                    overflow-x: hidden;
+                }
+                
+                .header {
+                    padding: 30px;
+                    text-align: center;
+                    background: rgb(233, 230, 230);
+                }
+                
+                .header h1 {
+                    font-size: 60px;
+                }
+                /*  this is navbar-area */
+                
+                .navbar {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                    padding: 20px 12px;
+                    margin: 10px;
+                    border-bottom: 3px solid #c6cace;
+                    background-color: #eeecec;
+                    border-radius: 15PX;
+                    text-decoration: none;
+                    font-size: 30px;
+                    border-radius: 25px;
+                    width: 100%;
+                }
+                
+                .navbar ul {
+                    display: flex;
+                    padding: 12px 20px;
+                    margin: 0px;
+                    align-items: center;
+                    list-style: none;
+                    text-decoration: none;
+                }
+                
+                .navbar li a {
+                    text-decoration: none;
+                    padding: 40px;
+                    font-size: 20px;
+                    border-radius: 0px;
+                }
+                
+                .navbar li a:hover {
+                    background-color: #3c3f583d;
+                    color: #f1f1f1;
+                    border-radius: 20px;
+                }
+                /*  container-area*/
+                
+                .contianer {
+                    margin-top: 30px;
+                    padding: auto;
+                    width: 100%;
+                    background-color: #eeecec;
+                }
+                
+                #home {
+                    margin: 0px;
+                    padding: 0px;
+                    width: 100%;
+                    align-items: center;
+                }
+                
+                .card {
+                    padding: 20px;
+                    margin-top: 20px;
+                    background-color: rgb(253, 250, 250)
+                }
+                
+                #home h2 {
+                    font-style: oblique;
+                    text-align: center;
+                    font-size: 40px;
+                }
+                
+                .card:hover {
+                    background-color: gainsboro;
+                    color: #0e0d0d;
+                    border-radius: 10px;
+                    border-bottom: 5px solid #c6cace;
+                }
+                
+        /*      fixed-image        */
+          .pizza-img {
+                 position:fixed;
+                  bottom: 28px;
+                  right: 0;
+                 width: 400px;
+                border: 6px solid #73AD21 ;
+              border-radius: 10px;
+ 
+                }
+/*        the first paragraph         */
+                .text-pizza{
+                            text-align: center;
+                            font-family:serif;
+                            font-size: 20px;
+                            letter-spacing: normal;
+                            font-weight: 200;
+                        }
+            .menu-img{
+                     position:relative;  
+                }
+                .menu-img img{
+                    display: flex;
+                justify-content: center;
+                  left: 0;
+                  top: 50%;
+                  width: 100%;
+                  text-align: center;
+                  font-size: 20px;
+                }
+.types-pizza{
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 200;
+}
+               /* About-area*/
+.about-us{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    font-size: 20px;
+    text-decoration:underline;
+}
+.about-header{
+    font-family:serif;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+
+/* contact-area  */
+h3{
+    font-family:serif;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+        #contact{   
+                    justify-content: space-between;
+                   align-items: center;
+                    text-decoration: none;
+                    font-size: 30px;
+                   padding: 15px 12px;
+                    width: 100%;
+}
+
+#contact ul{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    text-decoration: none;
+  
+}
+#contact li a{
+    margin: 10px;
+    padding: 10px;
+   font-size: 30px;
+    text-decoration: none;
+   
+}
+     
+/* footer-area*/
+#footer{
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    padding:0px;
+    width: 100%;
+    height: 100px;
+    background-color: 
+}
+#footer h2{
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+   list-style: none;
+   
+}
+#footer a{
+    font-size: 50px;
+    padding: 20px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    text-decoration: none;
+   list-style: none;
+}
+
+
+
+/* Create two unequal columns that floats next to each other 
+                /* Left column 
+                
+                #home {
+                    float: left;
+                    width: 75%;
+                }
+                /* Right column 
+                
+                .rightcolumn {
+                    float: left;
+                    width: 25%;
+                    background-color: #f1f1f1;
+                    padding-left: 20px;
+                }
+                /* Fake image
+                
+                .fakeimg {
+                    background-color: #aaa;
+                    y width: 100%;
+                    padding: 20px;
+                }
+                /* Add a card effect for articles 
+                
+                .card {
+                    background-color: white;
+                    padding: 20px;
+                    margin-top: 20px;
+                }
+                /* Clear floats after the columns 
+                
+                .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                /* Footer 
+                
+                #footer {
+                    padding: 20px;
+                    text-align: center;
+                    background: #ddd;
+                    margin-top: 20px;
+                    align-items: center;
+                }
+                /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other 
+                
+                @media screen and (max-width: 800px) {
+                    .leftcolumn,
+                    .rightcolumn {
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+                /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other 
+                
+                @media screen and (max-width: 400px) {
+                    .navbar a {
+                        float: none;
+                        width: 100%;
+                    }*
